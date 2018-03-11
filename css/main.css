@@ -200,6 +200,7 @@ margin: auto;
 
 .graybg{
 background-color: #EDF0F5;
+padding-bottom: 40px;
 }
 
 .iphone{
@@ -521,7 +522,7 @@ textarea {
 }
 
 .graybg{
-
+padding-bottom: 0px;
 }
 
 .screenshot-container{
