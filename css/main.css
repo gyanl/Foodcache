@@ -498,6 +498,8 @@ textarea {
 
 .overflow-container{
   overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+
 }
 
 .primary{
