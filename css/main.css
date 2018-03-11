@@ -17,13 +17,20 @@ html {
     line-height: 1.4;
 }
 
+.dark{
+    color: #4B5260;
+}
+
+.white{
+    color: #ffffff;
+}
+
 .hvr-grow-shadow {
   text-decoration: none;
   display: inline;
   margin: 4px;
   padding: 2px;
   border-radius: 32px;
-  color: #80D25B;
   width: 32px;
   height: 32px;
   text-align: center;
@@ -110,22 +117,23 @@ text-align: center;
   text-align: center;
 }
 
+
 .how-works{
   background-image: url("../img/image1.png");
   background-size: 450px 336px;
   background-repeat: no-repeat;
   background-position: right center;
-  width: 900px;
+  width: 920px;
   margin: auto;
 }
 
 .team-container{
-  max-width: 900px;
+  max-width: 920px;
   margin: auto;
 }
 
 .team-member{
-  margin: 16px 12px 16px 12px;
+  margin: 16px 16px 16px 16px;
   display: inline-block;
   width: 270px;
   height: 360px;
@@ -186,7 +194,7 @@ text-align: center;
 
 
 .screenshot-container{
-max-width: 900px;
+max-width: 920px;
 margin: auto;
 }
 
@@ -198,10 +206,10 @@ background-color: #EDF0F5;
   display: inline-block;
   width: 246px;
   height: auto;
-  margin: 28px 10px 16px 10px;
+  margin: 28px 20px 16px 20px;
   border-radius: 36px;
   background: #fff;
-  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.10);
   border-width: 8px;
   border-style: solid;
   border-color: #fff;
@@ -246,7 +254,7 @@ background-color: #EDF0F5;
 
 .title{
   padding-top: 48px;
-  max-width: 900px;
+  max-width: 920px;
 }
 
 .left{
@@ -258,13 +266,14 @@ background-color: #EDF0F5;
 }
 
 .footer{
-  padding: 30px 0px 10px 0px;
+  padding: 32px 0px 4px 0px;
   background-color: #4B5260;
+  background-image: linear-gradient(#373E4A, #4B5260);
   margin-bottom: -20px;
 }
 
 .footer-container{
-  width: 900px;
+  width: 920px;
 }
 
 .footer-text{
@@ -478,6 +487,7 @@ textarea {
 
 .iphone{
   border-radius: 38px;
+  margin: 28px 12px 48px 12px;
   width: 270px;
 }
 
@@ -517,7 +527,7 @@ textarea {
 .screenshot-container{
   max-width: none;
   overflow-y: hidden;
-  width: 1900px;
+  width: 1910px;
 }
 
 .how-works{
@@ -558,11 +568,11 @@ textarea {
 }
 
 .footer{
-  padding: 24px 0px 8px 0px;
+  padding: 36px 0px 8px 0px;
 }
 
 .footer-text{
-  max-width: 900px;
+  max-width: 920px;
 }
 
 
