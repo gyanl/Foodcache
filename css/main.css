@@ -73,6 +73,7 @@ text-align: center;
 }
 
 .subfood{
+  padding-top: 6px;
   max-width: 500px;
   text-align: center;
 }
@@ -81,7 +82,7 @@ text-align: center;
   background-image: url("../img/image1.png");
   background-size: 450px 336px;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right center;
   width: 900px;
   margin: auto;
 }
@@ -92,9 +93,9 @@ text-align: center;
 }
 
 .team-member{
-  margin: 20px;
+  margin: 16px 8px 16px 8px;
   display: inline-block;
-  width: 250px;
+  width: 280px;
   height: 328px;
 }
 
@@ -107,26 +108,26 @@ text-align: center;
 .name{
   color: #3D4D71;
   padding-top: 16px;
-  font-size: 16px;
+  font-size: 18px;
   padding-bottom: 4px;
 }
 
 .position{
   color: #01996B;
-  font-size: 14px;
+  font-size: 16px;
   padding-bottom: 8px;
 }
 
 .description{
   height: 56px;
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
   color: #6D768E;
 }
 
 .location{
-  font-size: 13px;
+  font-size: 14px;
   padding-bottom: 2px;
   color: #6D768E;
 }
@@ -154,7 +155,7 @@ background-color: #f9f9f9;
 
 .iphone{
   display: inline-block;
-  width: 250px;
+  width: 246px;
   height: auto;
   margin: 28px 10px 16px 10px;
   border-radius: 36px;
@@ -168,7 +169,7 @@ background-color: #f9f9f9;
 .screenshot{
   width: 240px;
   height: auto;
-  margin: 5px;
+  margin: 3px;
   border-radius: 20px;
 }
 
@@ -408,11 +409,12 @@ textarea {
   }
 
 .iphone{
+  border-radius: 38px;
   width: 270px;
 }
 
 .screenshot{
-  width: 260px;
+  width: 264px;
 }
 
 .overflow-container{
@@ -451,7 +453,8 @@ textarea {
 }
 
 .how-works{
-  height: 750px;
+  height: auto;
+  padding-bottom: 200px;
   background-size: 360px auto;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -464,12 +467,12 @@ textarea {
 }
 
 
-.team{
-
+.description{
+  height: auto;
 }
 
 .team-member{
-
+  margin: 12px 0px 0px 0px;
 }
 
 .logo{
