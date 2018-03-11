@@ -11,22 +11,25 @@
    ========================================================================== */
 
 html {
-  background: linear-gradient(#EEF8FF 0%, #F0F7FF 100%);
-  background-size: 100% 445px;
-  background-repeat: no-repeat;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
 
+.header{
+  height: auto;
+  background: linear-gradient(#EEF8FF 0%, #F0F7FF 100%);
+  background-repeat: no-repeat;
+}
+
 .header-bg{
-height: 450px;
-width: auto;
-background-image: url("../img/background.png");
-background-repeat: no-repeat;
-background-size: 1280px 460px;
-background-position: center bottom;
+  height: auto;
+  width: auto;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: 1280px 460px;
+  background-position: center bottom;
 }
 
 .logo{
@@ -39,22 +42,28 @@ background-position: center bottom;
   width: 320px;
 }
 
+.padding-appstore{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
 .appstore{
   display: block;
-  margin-top: 24px;
-  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 1px;
   background-image: url("../img/appstore.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center bottom;
-  height: 52px;
-  width: 182px;
+  height: 72px;
+  width: 254px;
   opacity: .98;
+  transition: .2s;
 }
 
 .appstore:hover{
-  padding-top: 1px;
   opacity: 1;
+  margin-top: 1px;
+  margin-bottom: 0px;
 }
 
 .food{
@@ -78,24 +87,110 @@ text-align: center;
   margin: auto;
 }
 
-.team{
-    width: 900px;
+.team-container{
+  max-width: 900px;
+  margin: auto;
+}
+
+.team-member{
+  margin: 20px;
+  display: inline-block;
+  width: 250px;
+  height: 328px;
+}
+
+.team-photo{
+  border-radius: 140px;
+  width: 200px;
+  height: auto;
+}
+
+.name{
+  color: #3D4D71;
+  padding-top: 16px;
+  font-size: 16px;
+  padding-bottom: 4px;
+}
+
+.position{
+  color: #01996B;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.description{
+  height: 56px;
+  font-size: 13px;
+  font-style: italic;
+  padding-bottom: 4px;
+  color: #6D768E;
+}
+
+.location{
+  font-size: 13px;
+  padding-bottom: 2px;
+  color: #6D768E;
+}
+
+.size13{
+  font-style: italic;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.size16{
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+
+.graybg{
+    background: #FAFAFA;
+}
+
+.screenshot-container{
+  max-width: 900px;
+  margin: auto;
+}
+
+.iphone{
+  display: inline-block;
+  width: 250px;
+  height: auto;
+  margin: 28px 10px 16px 10px;
+  border-radius: 32px;
+  background: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+  border-width: 8px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.screenshot{
+  width: 240px;
+  height: auto;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.spaceafter{
+  height: 72px;
+  width: auto;
 }
 
 .primary{
   padding-left: 28px;
   padding-right: 28px;
-  font-size: 32px;
+  padding-bottom: 20px;
   color: #3D4D71;
+  font-size: 32px;
   line-height: 1.2em;
 }
 
 .secondary{
   padding-left: 28px;
   padding-right: 28px;
-  font-size: 16px;
   color: #6D768E;
-  line-height: 1.6em;
 }
 
 .maxwidth400{
@@ -307,9 +402,23 @@ textarea {
       background-size: 100% 640px;
   }
 
-  .header-bg{
-  height: 640px;
+.primary{
+    font-size: 24px;
+}
+
+.secondary{
+    font-size: 14px;
+}
+
+.header{
+  height: auto;
+  background-size: auto auto;
+}
+
+.header-bg{
+  height: auto;
   background-image: url("../img/trees.png");
+  background-repeat: no-repeat;
   background-size: 360px 160px;
 }
 
@@ -321,6 +430,23 @@ textarea {
   width: auto;
 }
 
+.padding-appstore{
+    padding-top: 20px;
+    padding-bottom: 172px;
+}
+
+
+.team{
+
+}
+
+.team-member{
+
+}
+
+.logo{
+  padding-top: 32px;
+}
     /* Style adjustments for viewports that meet the condition */
 }
 
