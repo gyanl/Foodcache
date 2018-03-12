@@ -9,74 +9,6 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-   .animated {
-     -webkit-animation-duration: 1s;
-     animation-duration: 1s;
-     -webkit-animation-fill-mode: both;
-     animation-fill-mode: both;
-   }
-
-   @-webkit-keyframes fadeInUp {
-     from {
-       opacity: 0;
-       -webkit-transform: translate3d(0, 100%, 0);
-       transform: translate3d(0, 100%, 0);
-     }
-
-     to {
-       opacity: 1;
-       -webkit-transform: translate3d(0, 0, 0);
-       transform: translate3d(0, 0, 0);
-     }
-   }
-
-   @keyframes fadeInUp {
-     from {
-       opacity: 0;
-       -webkit-transform: translate3d(0, 100%, 0);
-       transform: translate3d(0, 100%, 0);
-     }
-
-     to {
-       opacity: 1;
-       -webkit-transform: translate3d(0, 0, 0);
-       transform: translate3d(0, 0, 0);
-     }
-   }
-
-   .fadeInUp {
-     -webkit-animation-name: fadeInUp;
-     animation-name: fadeInUp;
-   }
-
-   @-webkit-keyframes zoomIn {
-     from {
-       opacity: 0;
-       -webkit-transform: scale3d(0.3, 0.3, 0.3);
-       transform: scale3d(0.3, 0.3, 0.3);
-     }
-
-     50% {
-       opacity: 1;
-     }
-   }
-
-   @keyframes zoomIn {
-     from {
-       opacity: 0;
-       -webkit-transform: scale3d(0.3, 0.3, 0.3);
-       transform: scale3d(0.3, 0.3, 0.3);
-     }
-
-     50% {
-       opacity: 1;
-     }
-   }
-
-   .zoomIn {
-     -webkit-animation-name: zoomIn;
-     animation-name: zoomIn;
-   }
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -170,6 +102,8 @@ html {
 }
 
 .appstore:hover{
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
   opacity: 1;
   margin-top: 1px;
   margin-bottom: 0px;
@@ -298,6 +232,14 @@ padding-bottom: 40px;
   border-width: 8px;
   border-style: solid;
   border-color: #fff;
+  transition: .2s;
+}
+
+
+.iphone:hover{
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.20);
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 .screenshot{
