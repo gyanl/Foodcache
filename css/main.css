@@ -222,16 +222,15 @@ padding-bottom: 40px;
 }
 
 .iphone{
+  background-color: #222222;
+  padding: 1px;
+  border: 4px solid #777777;
   display: inline-block;
   width: 246px;
   height: auto;
   margin: 28px 20px 16px 20px;
-  border-radius: 36px;
-  background: #fff;
+  border-radius: 35px;
   box-shadow: 0 2px 16px 0 rgba(0,0,0,0.10);
-  border-width: 8px;
-  border-style: solid;
-  border-color: #fff;
   transition: .2s;
 }
 
@@ -566,8 +565,8 @@ max-width: none;
   }
 
 .iphone{
-  border-radius: 38px;
-  margin: 28px 12px 48px 12px;
+  border-radius: 36px;
+  margin: 24px 8px 44px 8px;
   width: 270px;
 }
 
