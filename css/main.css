@@ -151,7 +151,7 @@ max-width: 45%;
 }
 
 .team-member{
-  margin: 16px 16px 16px 16px;
+  margin: 48px 16px 0px 16px;
   display: inline-block;
   width: 270px;
   height: 360px;
@@ -262,10 +262,14 @@ padding-bottom: 40px;
 .primary{
   padding-left: 28px;
   padding-right: 28px;
-  padding-bottom: 20px;
   color: #3D4D71;
   font-size: 32px;
   line-height: 1.2em;
+}
+
+.subtitle{
+    text-align: left;
+    max-width: 920px;
 }
 
 .secondary{
@@ -281,7 +285,11 @@ padding-bottom: 40px;
 
 .title{
   padding-top: 48px;
-  width: 920px;
+  max-width: 920px;
+}
+
+.stay-left{
+  text-align: left;
 }
 
 .left{
@@ -508,6 +516,14 @@ textarea {
 
 @media only screen and (max-width: 768px) {
 
+.left{
+    text-align: center;
+}
+
+.subtitle{
+  text-align: center;
+}
+
 .header-bg{
   background-size: 90% auto;
 }
@@ -611,7 +627,7 @@ padding-bottom: 0px;
 
 
 .team-member{
-  margin: 20px 0px 4px 0px;
+  margin: 16px 0px 24px 0px;
 }
 
 .logo{
