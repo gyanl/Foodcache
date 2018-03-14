@@ -17,6 +17,47 @@ html {
     line-height: 1.4;
 }
 
+input[type=text]{
+  margin: 2px;
+  height: 40px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 32px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08);
+  display: inline;
+}
+
+input[type=text]:focus{
+    border: 2px solid #01996B;
+    outline:0;
+    margin: 1px;
+}
+
+input[type=submit]{
+  outline: 0;
+  margin: 2px;
+  display: inline;
+  height: 40px;
+  padding: 8px 28px 8px 28px;
+  border-radius: 32px;
+  color: #fff;
+  /* Rectangle 13: */
+  background-image: linear-gradient(#57C060, #01996B);
+  background-color: #01996B;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08);
+  transition: .2s;
+}
+
+input[type=submit]:focus{
+    margin: 1px;
+}
+
+
+input[type=submit]:hover{
+  background-image: linear-gradient(#01996B, #00724D);
+}
+
 .dark{
     color: #4B5260;
 }
@@ -84,8 +125,12 @@ html {
 }
 
 .padding-appstore{
-    padding-top: 36px;
-    padding-bottom: 80px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.opacity75{
+  opacity: .75;
 }
 
 .appstore{
@@ -223,8 +268,8 @@ padding-bottom: 40px;
 
 .iphone{
   background-color: #222222;
-  padding: 1px;
-  border: 4px solid #777777;
+  padding: 3px;
+  border: 3px solid #777777;
   display: inline-block;
   width: 246px;
   height: auto;
@@ -267,7 +312,7 @@ padding-bottom: 40px;
 }
 
 .subtitle{
-    text-align: left;
+    text-align: center;
     max-width: 920px;
 }
 
@@ -297,6 +342,10 @@ padding-bottom: 40px;
 
 .right{
   text-align: right;
+}
+
+.center{
+  text-align: center;
 }
 
 .footer{
@@ -519,6 +568,10 @@ textarea {
     text-align: center;
 }
 
+.center{
+  text-align: center;
+}
+
 .subtitle{
   text-align: center;
 }
@@ -528,8 +581,8 @@ textarea {
 }
 
 .padding-appstore{
-    padding-top: 48px;
-    padding-bottom: 100px;
+    padding-top: 8px;
+    padding-bottom: 20px;
 }
 
 .how-works{
@@ -564,6 +617,15 @@ max-width: none;
       background-size: 100% 640px;
   }
 
+input[type=text]{
+  width: 240px;
+}
+
+  input[type=submit]{
+      width: 160px;
+    display: block;
+}
+
 .iphone{
   border-radius: 36px;
   margin: 24px 8px 44px 8px;
@@ -593,6 +655,10 @@ max-width: none;
   height: auto;
 }
 
+.opacity75{
+  padding-bottom: 100px;
+}
+
 .header-bg{
   height: auto;
   background-image: url("../img/trees.png");
@@ -611,8 +677,8 @@ padding-bottom: 0px;
 }
 
 .padding-appstore{
-    padding-top: 36px;
-    padding-bottom: 180px;
+    padding-top: 4px;
+    padding-bottom: 18px;
 }
 
 .name{
