@@ -279,11 +279,19 @@ padding-bottom: 40px;
   transition: .2s;
 }
 
+.zoomanim{
+  transition: .3s;
+}
+
+.zoomanim:hover{
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
 
 .iphone:hover{
   box-shadow: 0 2px 12px 0 rgba(0,0,0,0.20);
-  -webkit-transform: scale(1.04);
-  transform: scale(1.04);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 
 .screenshot{
@@ -364,6 +372,11 @@ padding-bottom: 40px;
   font-size: 14px;
   color: #fff;
   line-height: 28px;
+}
+
+.footer-text a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .heart{
