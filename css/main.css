@@ -177,6 +177,39 @@ text-align: center;
   margin: auto;
 }
 
+.friends-bg{
+    background: #F6F7FA;
+}
+
+.friends{
+  width: 920px;
+  margin: auto;
+  padding: 44px 0px 44px 0px;
+}
+
+.friends-logo{
+  display: inline;
+  padding-left: 25px;
+}
+
+.friends-text{
+  margin-top: -12px;
+  padding: 0px 30px 30px 0px;
+  float: right;
+  max-width: 660px;
+}
+
+.smallcaps{
+  margin-bottom: -10px;
+  font-size: 14px;
+  color: #3D4D71;
+  font-weight: bold;
+}
+
+.invited{
+  color: #6D768E;
+}
+
 .col1of2{
 height: auto;
 max-width: 45%;
@@ -602,7 +635,33 @@ textarea {
 
 .how-works{
   width: auto;
+  height: auto;
 }
+
+.friends-bg{
+height: auto;
+}
+
+.friends{
+  display: inline-block;
+  width: auto;
+  padding-bottom: 10px;
+}
+
+.friends-text{
+  max-width: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  display: block;
+  width: auto;
+}
+
+.friends-logo{
+  display: block;
+  padding-left: 26px;
+}
+
 
 .col1of2{
 height: auto;
