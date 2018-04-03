@@ -18,7 +18,7 @@ html {
 }
 
 input[type=text]{
-  margin: 2px;
+  margin: 3px;
   height: 40px;
   padding: 8px 20px 8px 20px;
   border-radius: 32px;
@@ -31,22 +31,28 @@ input[type=text]{
 input[type=text]:focus{
     border: 2px solid #01996B;
     outline:0;
-    margin: 1px;
+    margin: 3px 2px 3px 2px;
 }
 
 input[type=submit]{
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
   outline: 0;
-  margin: 2px;
+  margin: 8px;
   display: inline;
   height: 40px;
   padding: 8px 28px 8px 28px;
   border-radius: 32px;
   color: #fff;
   /* Rectangle 13: */
-  background-image: linear-gradient(#57C060, #01996B);
   background-color: #01996B;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.08);
-  transition: .2s;
+  transition: .3s;
 }
 
 input[type=submit]:focus{
@@ -55,7 +61,7 @@ input[type=submit]:focus{
 
 
 input[type=submit]:hover{
-  background-image: linear-gradient(#01996B, #00724D);
+  background-color: #00724D;
 }
 
 .dark{
