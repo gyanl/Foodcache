@@ -189,6 +189,7 @@ text-align: center;
 
 .friends{
   width: 920px;
+  height: 130px;
   margin: auto;
   padding: 44px 0px 44px 0px;
 }
@@ -651,6 +652,7 @@ height: auto;
 .friends{
   display: inline-block;
   width: auto;
+  height: auto;
   padding-bottom: 10px;
 }
 
@@ -659,7 +661,6 @@ height: auto;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 20px;
-  display: block;
   width: auto;
 }
 
