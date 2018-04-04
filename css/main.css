@@ -172,6 +172,12 @@ text-align: center;
   text-align: center;
 }
 
+.width-800{
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
 .image{
   width: auto;
   height: inherit;
