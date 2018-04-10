@@ -146,18 +146,21 @@ input[type=submit]:hover{
   background-image: url("../img/appstore.png");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 72px;
-  width: 260px;
-  opacity: .98;
+  height: 80px;
+  width: 220px;
+  opacity: 1;
   transition: .2s;
 }
 
 .appstore:hover{
-  -webkit-transform: scale(1.02);
-  transform: scale(1.02);
-  opacity: 1;
+  opacity: .95;
   margin-top: 1px;
   margin-bottom: 0px;
+}
+
+.tweet{
+  text-decoration: none;
+  color: ##22BA8E;
 }
 
 .food{
