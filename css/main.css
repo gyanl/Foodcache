@@ -247,9 +247,9 @@ text-align: center;
   font-weight: 700;
 }
 
-.invited a{
+.invited{
   text-decoration: none;
-  color: #3D4966;
+  color: #6D768E;
 }
 
 .col1of2{
@@ -702,6 +702,11 @@ height: auto;
 .friends-logo{
   display: block;
   padding-left: 26px;
+}
+
+.news-img{
+  width: 280px;
+  height: auto;
 }
 
 .card1of2{
