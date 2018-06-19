@@ -143,6 +143,47 @@
   </div>
 </div>
 
+<div class="faq-bg">
+  <div class="how-works">
+  <div class="primary title stay-left">Frequently Asked Questions</div>
+
+<button class="accordion">How accurate are dates for food recommended consumption dates?</button>
+<div class="panel">
+  <p>We have integrated data from Food Keeper suggested by USDA. There are gaps identified in data which we updated. We will improve dates as move forward. The most important point is that these dates are recommended dates only and consumer should always use their intuition to identify if food is still edible and safe to eat.</p>
+</div>
+
+<button class="accordion">What does Nutrition Lost indicate in App screens?</button>
+<div class="panel">
+  <p>Again this doesn't mean that food is unfit to be consumed. It simply means some of the nutrients might have been lost in produce?</p>
+</div>
+
+<button class="accordion">Is Receipt Parsing the only primary mechanism for FoodCache to create Inventory?</button>
+<div class="panel">
+  <p>We have plans to support additional ways to add food items to your inventory. Receipt parsing is one convenient way to do so, but accuracy depends on how well user takes a photo of receipt and several other factors like any other OCR application out there.</p>
+</div>
+
+<button class="accordion">Does FoodCache scan all food items in Grocery Receipt?</button>
+<div class="panel">
+  <p>We only support scanning fresh produce at this time (Vegetables & fruits), stores that have weight information and complete name of the fresh produce printed on the receipts work well. We won't be able to detect produce if it has short names.</p>
+</div>
+
+<button class="accordion">What are tips for identifying most fresh produce?</button>
+<div class="panel">
+  <p><li>Unfold, remove wrinkles from grocery receipts as much as possible.<li>Images should be taken with phone parallel to receipt andblur free. <li>Make sure all four edges are detected, to ensure good scan of food items.</p>
+</div>
+
+<button class="accordion">Does FoodCache support all grocery Stores?</button>
+<div class="panel">
+  <p>FoodCache supports all grocery receipts from various stores. Weight and item detection works well with Wholefoods. We have seen better results with Trader Joe's, Safeway, Kroger, to name a few. If there is a grocery store that you shop often and would like us to support we can definitely support that. Please email us team@foodcacheapp.com</p>
+</div>
+
+</div>
+<div class="space-half">
+
+</div>
+</div>
+
+
 <!---<div class="friends-bg">
   <div class="friends">
         <div class="friends-logo">
@@ -317,5 +358,21 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>-->
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
     </body>
 </html>
