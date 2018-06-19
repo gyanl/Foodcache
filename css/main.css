@@ -710,6 +710,7 @@ height: auto;
 }
 
 .card1of2{
+  margin: 12px;
   width: auto;
   max-width: auto;
 }
